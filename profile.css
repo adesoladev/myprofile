@@ -1,0 +1,154 @@
+body {
+  width: auto;
+  height: auto;
+  font-family: Poppins;
+  color: white;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  height: 115vh;
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.img img {
+  width: auto;
+  height: 100px;
+  margin: 30px 0 10px 0;
+  border-radius: 50px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 50px;
+}
+
+.bio h1 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.bio span {
+  color: rgb(148, 248, 18);
+}
+
+.bio p {
+  font-size: 15px;
+  color: rgb(214, 210, 210);
+  width: 350px;
+  margin-bottom: 40px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.links button {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  padding: 15px 120px;
+  background-color: rgb(78, 76, 76);
+  border-radius: 10px;
+  border: 2px solid rgb(78, 76, 76);
+}
+
+.links button:hover {
+  background-color: rgb(148, 248, 18);
+  border: 2px solid rgb(148, 248, 18);
+  color: black;
+}
+
+footer {
+  font-size: 15px;
+  color: rgb(241, 255, 191);
+  margin: 10px 0;
+}
+
+footer p a {
+  color: whitesmoke;
+}
+
+footer p a:hover {
+  color: rgb(148, 248, 18);
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 400px;
+    height: 65vh;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 400px;
+    height: 75vh;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 915px) {
+  .container {
+    width: 400px;
+    height: 75vh;
+  }
+}
+
+@media only screen and (max-width: 812px) {
+  .container {
+    width: 400px;
+    height: 90vh;
+    padding: 0 50px;
+  }
+
+  .links {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 400px;
+    height: 95vh;
+    margin: 0 70px 10px 70px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .container {
+    width: 400px;
+    height: 100vh;
+    padding: 0 50px;
+  }
+
+  .links {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .container {
+    width: 400px;
+    height: 150vh;
+    padding: 0 50px;
+  }
+
+  .links {
+    margin-bottom: 50px;
+  }
+}
